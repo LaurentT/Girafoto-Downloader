@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://girafotodownloader/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://xulschoolhello/locale/browserOverlay.dtd">
+
+<overlay id="xulschoolhello-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://girafotodownloader/content/browserOverlay.js" />
+
+  <vbox id="nav-bar-customization-target">
+    <toolbarbutton id="girafotoltn-startdownloadbutton" class="toolbarbutton-1 chromeclass-toolbar-additional"
+      insertafter="home-button" label="GiraFoto Downloader" oncommand="GiraFotoLTN.BrowserOverlay.downloadPictures(event)">
+    </toolbarbutton>
+  </vbox>
+</overlay>

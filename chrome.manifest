@@ -1,0 +1,4 @@
+content   girafotodownloader                content/
+skin      girafotodownloader  classic/1.0   skin/
+
+overlay chrome://browser/content/browser.xul  chrome://girafotodownloader/content/browserOverlay.xul
